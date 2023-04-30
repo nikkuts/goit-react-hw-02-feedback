@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 class WidgetFeedback extends Component {
-    static propTypes = {};
+    // static propTypes = {};
 
     state = {
         good: 0,
