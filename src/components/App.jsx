@@ -36,7 +36,7 @@ render () {
       </Section>
       <Section title='Statistics'>
         {
-          this.countPositiveFeedbackPercentage() ? (
+          this.countTotalFeedback() !== 0 ? (
             <Statistics 
             good={good} 
             neutral={neutral} 
